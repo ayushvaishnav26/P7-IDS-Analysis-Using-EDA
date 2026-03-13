@@ -1,0 +1,44 @@
+========================================================
+        EXPLORATORY DATA ANALYSIS TASKS – IDS DATASET
+========================================================
+
+This file contains the original questions/tasks implemente in the Python scripts inside the `src/` directory.
+
+1. Write Python code to: 
+    Load a dataset using Pandas 
+    Display first 5 rows 
+    Show dataset shape 
+    Display column names 
+    Print detailed dataset information 
+2. Write Python code to find Missing Value Detection & Treatment 
+    Write code to check missing values in each column. 
+    Replace missing numerical values using mean imputation. 
+    Drop rows containing null values. 
+3. Write Python code to determine Independent & Dependent Variable Extraction Using .iloc[], extract: 
+    Independent variables (X) 
+    Dependent variable (y) 
+4. Write Python code to Encode Categorical Variables 
+    Apply LabelEncoder on a categorical column. 
+    Apply OneHotEncoder for dummy variable creation. 
+5. Write Python code to Train-Test Split Implementation 
+    Split dataset into training and testing sets (80:20 ratio). 
+    Set random_state=0. 
+6. Write Python code for Feature Scaling to Implement: 
+    MinMaxScaler (Normalization) 
+    StandardScaler (Standardization) 
+7. Write Python code  for Univariate Analysis (Visualization + Statistics) 
+    Plot Histogram with KDE 
+    Plot Box Plot 
+    Calculate skewness 
+    Identify outliers visually 
+8. Write Python code  for Bivariate Analysis 
+    Generate Scatter Plot between two continuous variables 
+    Compute Pearson Correlation 
+    Create Violin Plot 
+9. Write Python code  for Multivariate Analysis 
+    Generate Pair Plot 
+    Create Correlation Heatmap with annotations 
+10. Write Python code  for Outlier Detection & Feature Engineering 
+    Z-Score method for outlier detection 
+    Isolation Forest 
+    Local Outlier Factor (LOF)
