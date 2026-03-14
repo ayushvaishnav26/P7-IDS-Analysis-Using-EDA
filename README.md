@@ -2,7 +2,7 @@
 
 This project performs **Exploratory Data Analysis (EDA)** on the **KDD Intrusion Detection Dataset** to understand network traffic behavior and identify patterns that may indicate malicious activity.
 
-The goal is to analyze network features, detect anomalies, and gain insights into potential attack patterns before applying machine learning models.
+The goal is to analyze network features, detect anomalies, and understand traffic patterns that may indicate cyber attacks before applying machine learning models.
 
 ---
 
@@ -40,11 +40,15 @@ IDS-Analysis-Using-EDA
 │   ├── 10_outlier_detection_and_feature_engineering.py
 │   └── kdd_column_names.py
 │
-├── questions.txt
-│
 ├── outputs
-│   └── (EDA visualizations and plots)
+│   ├── correlation_heatmap.png
+│   ├── pairplot_network_features.png
+│   ├── src_bytes_boxplot.png
+│   ├── src_bytes_histogram.png
+│   ├── src_vs_dst_bytes_scatter.png
+│   └── violin_attack_distribution.png
 │
+├── questions.txt
 ├── requirements.txt
 └── README.md
 ```
@@ -79,6 +83,16 @@ Understanding relationships among multiple features.
 Examples:
 - Correlation heatmap
 - Feature interaction analysis
+
+---
+
+## 📈 Sample Visualizations
+
+### Correlation Heatmap
+![Correlation Heatmap](outputs/correlation_heatmap.png)
+
+### Network Feature Pairplot
+![Pairplot](outputs/pairplot_network_features.png)
 
 ---
 
