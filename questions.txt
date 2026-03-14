@@ -1,6 +1,6 @@
-========================================================
-        EXPLORATORY DATA ANALYSIS TASKS – IDS DATASET
-========================================================
+=========================================================
+      EXPLORATORY DATA ANALYSIS TASKS – IDS DATASET
+=========================================================
 
 This file contains the original questions/tasks implemente in the Python scripts inside the `src/` directory.
 
